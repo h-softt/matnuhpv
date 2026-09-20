@@ -1,0 +1,10 @@
+display:
+  default:
+    display_title: الافتراضي
+    display_options:
+      fields:
+        title:
+          label: العنوان
+      exposed_form:
+        options:
+          exposed_sorts_label: 'فرز حسب'

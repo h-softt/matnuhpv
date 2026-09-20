@@ -1,0 +1,17 @@
+display:
+  default:
+    display_title: الافتراضي
+    display_options:
+      fields:
+        status:
+          label: الحالة
+        operations:
+          label: العمليات
+      exposed_form:
+        options:
+          submit_button: تصفية
+          exposed_sorts_label: 'فرز حسب'
+      filters:
+        status:
+          group_info:
+            label: الحالة

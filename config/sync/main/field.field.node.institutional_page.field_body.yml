@@ -1,0 +1,26 @@
+uuid: 8ea8fbfa-485f-4bf9-87ed-6d63174f3ad8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - filter.format.full_html
+    - node.type.institutional_page
+  module:
+    - text
+id: node.institutional_page.field_body
+field_name: field_body
+entity_type: node
+bundle: institutional_page
+label: body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - full_html
+field_type: text_with_summary

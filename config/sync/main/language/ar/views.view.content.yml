@@ -1,0 +1,33 @@
+display:
+  default:
+    display_title: الافتراضي
+    display_options:
+      fields:
+        title:
+          label: العنوان
+        status:
+          label: الحالة
+          settings:
+            format_custom_true: منشور
+        langcode:
+          label: اللغة
+        operations:
+          label: العمليات
+      exposed_form:
+        options:
+          submit_button: تصفية
+          exposed_sorts_label: 'فرز حسب'
+      filters:
+        title:
+          expose:
+            label: العنوان
+        status:
+          expose:
+            label: الحالة
+          group_info:
+            group_items:
+              1:
+                title: منشور
+        langcode:
+          expose:
+            label: اللغة

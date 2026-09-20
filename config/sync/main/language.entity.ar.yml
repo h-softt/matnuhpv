@@ -1,0 +1,9 @@
+uuid: 941cf61a-f215-4a4e-83db-37b34558de44
+langcode: fr
+status: true
+dependencies: {  }
+id: ar
+label: Arabe
+direction: rtl
+weight: -10
+locked: false

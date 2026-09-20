@@ -1,0 +1,29 @@
+display:
+  default:
+    display_title: الافتراضي
+    display_options:
+      fields:
+        filemime:
+          label: 'نوع MIME'
+        status:
+          label: الحالة
+        operations:
+          label: العمليات
+      exposed_form:
+        options:
+          submit_button: تصفية
+          exposed_sorts_label: 'فرز حسب'
+      filters:
+        filemime:
+          expose:
+            label: 'نوع MIME'
+        status:
+          expose:
+            label: الحالة
+  page_2:
+    display_options:
+      fields:
+        entity_label:
+          label: الكيان
+        type:
+          label: 'نوع الكيان'

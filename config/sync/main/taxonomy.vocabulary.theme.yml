@@ -1,0 +1,9 @@
+uuid: 142d5172-1b23-4116-aa5e-67917ea9067e
+langcode: en
+status: true
+dependencies: {  }
+name: theme
+vid: theme
+description: theme
+weight: 0
+new_revision: false

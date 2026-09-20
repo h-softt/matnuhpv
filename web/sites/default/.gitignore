@@ -1,0 +1,42 @@
+# Composer dependencies
+/vendor/
+
+# Drupal Core installed by Composer
+/web/core/
+
+# Contrib modules/themes/profiles installed by Composer
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+
+# Drupal generated files
+/web/sites/*/files/
+/web/sites/simpletest/
+
+# Temporary / cache files
+*.log
+*.tmp
+*.cache
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local settings containing secrets
+/web/sites/*/settings.local.php
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node dependencies if frontend tooling is added later
+node_modules/
+
+# Build output if needed later
+dist/
+build/

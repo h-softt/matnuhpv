@@ -1,0 +1,17 @@
+display:
+  default:
+    display_title: الافتراضي
+    display_options:
+      fields:
+        timestamp:
+          label: التاريخ
+        message:
+          label: الرسالة
+        name:
+          label: مستخدم
+        link:
+          label: العمليات
+      exposed_form:
+        options:
+          submit_button: تصفية
+          exposed_sorts_label: 'فرز حسب'

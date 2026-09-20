@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: fr
+uuid: f9143594-8d4e-4a9a-bc9e-24e0a6667877
+name: "Ministre de l'aménagement du territoire national de l'urbanisme de l’habitat"
+mail: admin@matnuhpv.local
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: ar
+mail_notification: null
