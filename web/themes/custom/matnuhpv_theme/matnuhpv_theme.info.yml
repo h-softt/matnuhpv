@@ -1,0 +1,8 @@
+name: MATNUHPV Theme
+type: theme
+description: 'Custom theme for MATNUHPV.'
+package: Custom
+core_version_requirement: ^11
+base theme: false
+libraries:
+  - matnuhpv_theme/global
